@@ -36,6 +36,15 @@ gem "jbuilder"
 # Use Active Model has_secure_password [https://guides.rubyonrails.org/active_model_basics.html#securepassword]
 # gem "bcrypt", "~> 3.1.7"
 
+# Forms made easy! [https://github.com/heartcombo/simple_form]
+gem 'simple_form', '~> 5.1'
+
+#
+gem 'will_paginate'
+
+#
+gem 'will_paginate-bootstrap'
+
 # Windows does not include zoneinfo files, so bundle the tzinfo-data gem
 gem "tzinfo-data", platforms: %i[ mingw mswin x64_mingw jruby ]
 
